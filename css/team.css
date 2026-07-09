@@ -3,14 +3,15 @@
   background-color: #f4f4fd;
   color: #2e2f42;
 }
-.section-team h3 {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
-.section-team p {
+.team-descr {
   color: #434455;
   font-weight: 400;
   text-align: center;
@@ -18,7 +19,7 @@
   letter-spacing: 0.02em;
 }
 
-.section-team img {
+.team-img {
   display: block;
 }
 
@@ -58,10 +59,6 @@
   border-radius: 0 0 4px 4px;
 }
 
-.team-name {
-  margin-bottom: 8px;
-}
-
 .team-list {
   display: flex;
   justify-content: center;
@@ -84,6 +81,7 @@
   background: #4d5ae5;
   color: #fff;
   transition: background-color 250ms ease-in-out;
+  fill: #f4f4fd;
 }
 
 .link-team:hover,
