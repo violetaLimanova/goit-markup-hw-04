@@ -39,11 +39,11 @@
   color: #404bbf;
 
   background-color: #404bbf;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 250ms ease-in-out;
 }
-.header-link.current:hover:after,
-.header-link.current:focus:after {
+.header-link.current:hover::after,
+.header-link.current:focus::after {
   opacity: 1;
 }
 

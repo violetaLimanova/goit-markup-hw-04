@@ -62,9 +62,14 @@
   background: #4d5ae5;
   color: #fff;
   transition: background-color 250ms ease-in-out;
+  fill: #f4f4fd;
 }
 
 .link-footer:hover,
 .link-footer:focus {
   background-color: #31d0aa;
+}
+
+.symbol-footer {
+  fill: #f4f4fd;
 }
